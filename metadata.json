@@ -1,0 +1,6 @@
+{
+  "name": "AegisTrace — Phishing Attack Detector",
+  "description": "Real-time phishing URL and email threat detection workbench with live DNS, SSL/TLS, domain reputation, and lexical risk analysis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
