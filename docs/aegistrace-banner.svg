@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="420" viewBox="0 0 1400 420" role="img" aria-labelledby="title desc">
+  <title id="title">AegisTrace animated cybersecurity banner</title>
+  <desc id="desc">A dark blue interface with animated particles, network connections, and a scanning shield.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090c12"/><stop offset="0.55" stop-color="#101827"/><stop offset="1" stop-color="#07111f"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity=".24"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0"/><stop offset=".5" stop-color="#38bdf8"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <rect width="1400" height="420" rx="24" fill="url(#bg)"/>
+  <circle cx="1150" cy="210" r="270" fill="url(#glow)"/>
+  <circle cx="1150" cy="210" r="220" fill="none" stroke="#1d4ed8" stroke-opacity=".10"/>
+  <circle cx="1150" cy="210" r="150" fill="none" stroke="#38bdf8" stroke-opacity=".12"/>
+
+  <g fill="#60a5fa">
+    <circle r="3"><animateMotion dur="12s" repeatCount="indefinite" path="M80,80 C250,20 390,170 520,80 S760,20 920,120"/></circle>
+    <circle r="4"><animateMotion dur="15s" repeatCount="indefinite" path="M40,330 C220,250 350,380 520,300 S810,210 1010,330"/></circle>
+    <circle r="2.5"><animateMotion dur="10s" repeatCount="indefinite" path="M130,180 C330,100 520,230 700,150 S930,80 1120,170"/></circle>
+    <circle r="3" fill="#38bdf8"><animateMotion dur="13s" repeatCount="indefinite" path="M80,220 C260,350 460,60 640,220 S970,350 1190,210"/></circle>
+    <circle r="2" fill="#93c5fd"><animateMotion dur="9s" repeatCount="indefinite" path="M160,50 C360,180 500,20 700,90 S1040,190 1270,70"/></circle>
+  </g>
+
+  <g stroke="#60a5fa" stroke-opacity=".13" fill="none">
+    <path d="M80 90 L170 130 L260 72 L360 142"><animate attributeName="stroke-opacity" values=".05;.18;.05" dur="4s" repeatCount="indefinite"/></path>
+    <path d="M125 325 L220 270 L330 340 L440 258"><animate attributeName="stroke-opacity" values=".12;.04;.12" dur="5s" repeatCount="indefinite"/></path>
+    <path d="M520 100 L640 185 L760 110 L880 200"><animate attributeName="stroke-opacity" values=".04;.16;.04" dur="6s" repeatCount="indefinite"/></path>
+  </g>
+
+  <g transform="translate(70 98)">
+    <rect width="710" height="224" rx="18" fill="#0c1119" stroke="#1e293b"/>
+    <circle cx="30" cy="30" r="5" fill="#3b82f6"/><circle cx="48" cy="30" r="5" fill="#64748b"/><circle cx="66" cy="30" r="5" fill="#334155"/>
+    <rect x="26" y="58" width="658" height="1" fill="#1e293b"/>
+    <text x="26" y="94" fill="#93c5fd" font-family="system-ui, sans-serif" font-size="17" letter-spacing="3">AEGIS TRACE</text>
+    <text x="26" y="148" fill="#f8fafc" font-family="system-ui, sans-serif" font-weight="750" font-size="48">PHISHING DETECTOR</text>
+    <text x="26" y="184" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="18">Live URL intelligence • Email analysis • Real-time threat telemetry</text>
+    <rect x="26" y="204" width="300" height="2" fill="#1d4ed8"/>
+    <rect x="26" y="204" width="110" height="2" fill="url(#scan)"><animate attributeName="x" values="26;216;26" dur="3.2s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <g transform="translate(1040 95)">
+    <path d="M110 0 L205 38 V128 C205 205 164 255 110 280 C56 255 15 205 15 128 V38 Z" fill="#0f172a" stroke="#60a5fa" stroke-width="3"/>
+    <path d="M110 30 L178 57 V130 C178 185 150 221 110 244 C70 221 42 185 42 130 V57 Z" fill="#111827" stroke="#1d4ed8" stroke-opacity=".7"/>
+    <circle cx="110" cy="145" r="48" fill="#0ea5e9" fill-opacity=".08" stroke="#38bdf8" stroke-opacity=".5">
+      <animate attributeName="r" values="42;55;42" dur="2.4s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".3;.8;.3" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M82 145 L102 165 L141 118" fill="none" stroke="#7dd3fc" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <rect width="1400" height="420" rx="24" fill="none" stroke="#334155" stroke-opacity=".6"/>
+</svg>
